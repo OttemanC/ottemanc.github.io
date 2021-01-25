@@ -1,4 +1,13 @@
-Dr. Eleanor Gaye
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Christian Otteman">
+        <title>Christian Otteman - Website Developer</title>
+    </head>
+    <body>
+        <p>Dr. Eleanor Gaye
 Awesome Science faculty
 University of Awesome
 Bobtown, CA 99999,
@@ -61,3 +70,6 @@ Yours sincerely,
 Dr Eleanor Gaye
 
 University of Awesome motto: "Be awesome to each other." -- Bill S Preston, Esq
+</p>
+    </body>
+</html>
