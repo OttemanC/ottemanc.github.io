@@ -148,9 +148,12 @@ figcaption { padding-top: 0.5rem;
 
 /* Footer */
 
-footer {padding: 1rem 1rem 1rem 1rem;
-        border-top-width: 2rem;
-        border-style: solid;
-        color: #333;
+footer {    padding-bottom: 1rem;
+            padding-top: 1rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            border-top-width: 2rem;
+            border-style: solid;
+            color: #333;
     
 }
