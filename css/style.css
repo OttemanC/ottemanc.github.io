@@ -131,7 +131,7 @@ section {
 /* Image & Figure */
 img {}
 
-figure {}
+figure { margin-bottom: 2rem;}
 
 figcaption {}
 
