@@ -103,13 +103,9 @@ h4 {
 
 h5 {
     font-size:1rem;
-    letter-spacing: normal
     font-weight: normal;
     margin-top: 0.25rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    padding: 0.25rem 0.25rem 0.25rem 0.25rem;
     color:#FFF;
     text-align:center;
     background-color: #333;
@@ -123,3 +119,9 @@ section {}
 img {}
 
 figure {}
+
+figcaption {}
+
+/* Footer */
+
+footer {}
