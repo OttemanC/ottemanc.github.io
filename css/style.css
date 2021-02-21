@@ -113,7 +113,9 @@ h5 {
 
 /* Section & Paragraph */
 
-section {}
+section {
+    margin-top: 0.5rem;
+}
 
 /* Image & Figure */
 img {}
