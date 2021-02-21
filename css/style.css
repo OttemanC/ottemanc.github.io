@@ -133,7 +133,10 @@ img {}
 
 figure { margin-bottom: 2rem;}
 
-figcaption {}
+figcaption {padding-top: 0.5rem;
+            text-align: right;
+    
+}
 
 /* Footer */
 
