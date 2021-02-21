@@ -104,12 +104,17 @@ h4 {
 h5 {
     text-transform: uppercase;
     font-size:1rem;
-    margin: 0;
+    margin-top: 0.25rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
     letter-spacing: .5rem;
-    color:darkred;
+    color:#FFF;
     text-shadow:.09375rem .09375rem .09375rem #000;
     font-family:'Alfa Slab One', Garamond, serif;
     text-align:center;
+    background-color: #333;
 }
 
 /* Section & Paragraph */
