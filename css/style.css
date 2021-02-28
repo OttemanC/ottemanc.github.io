@@ -80,7 +80,7 @@ header, footer {
 /* Imported Typfaces */
 @font-face {
     
-    font-family: 'josefin slab';
+    font-family: 'josefinslab';
     src: url('ottemanc.github.io/fonts/josefinslab-regular.ttf') format('truetype');
     font-weight:normal;
     font-style: normal;
@@ -95,7 +95,9 @@ header, footer {
 
 
 /* Typography Styles */
-html {}
+html {
+    font-family: montserrat, sans-serif, Arial;
+}
 
 h1 {}
 
