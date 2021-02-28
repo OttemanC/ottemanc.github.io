@@ -116,7 +116,9 @@ h2 {
 
 h2 + p {}
 
-p {}
+p {
+    font-size: 0.75rem;
+}
 
 li {}
 
