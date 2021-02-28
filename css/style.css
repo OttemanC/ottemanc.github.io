@@ -96,10 +96,12 @@ header, footer {
 
 /* Typography Styles */
 html {
-    font-family: montserrat, sans-serif, Arial;
+    font-family: 'montserrat', sans-serif, Arial;
 }
 
-h1 {}
+h1 {
+    font-family: 'josefinslab', serif;
+}
 
 h2 {}
 
@@ -140,8 +142,3 @@ nava:active {}
 
 /* Footer Styles */
 footer {}
-
-
-
-
-
