@@ -80,7 +80,7 @@ header, footer {
 /* Imported Typfaces */
 @font-face {
     
-    font-family: josefin slab;
+    font-family: 'josefin slab';
     src: url('ottemanc.github.io/fonts/josefinslab-regular.ttf') format('truetype');
     font-weight:normal;
     font-style: normal;
@@ -133,3 +133,8 @@ nava:active {}
 
 /* Footer Styles */
 footer {}
+
+
+
+
+
