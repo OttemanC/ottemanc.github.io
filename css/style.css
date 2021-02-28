@@ -81,13 +81,13 @@ header, footer {
 @font-face {
     
     font-family: 'josefinslab';
-    src: url(ottemanc.github.io/fonts/josefinslab-regular.ttf) 
+    src: url("ottemanc.github.io/fonts/josefinslab-regular.ttf") 
     font-weight:normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'montserrat';
-    src: url(ottemanc.github.io/fonts/montserrat-regular.ttf)
+    src: url("ottemanc.github.io/fonts/montserrat-regular.ttf")
     font-weight:normal;
     font-style: normal;
 }
