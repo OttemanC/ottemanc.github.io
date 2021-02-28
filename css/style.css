@@ -160,6 +160,7 @@ ul{
     margin-top: 1rem;
     margin-left: 0rem;
     margin-right: 0rem;
+    list-style-type: square;
     
 }
 
@@ -168,6 +169,7 @@ ol {
     margin-top: 1rem;
     margin-left: 0rem;
     margin-right: 0rem;
+    list-style-type: lower-latin;
     
 }
 
