@@ -100,7 +100,7 @@ html {
 }
 
 h1 {
-    font-family: josefinslab
+    font-family: josefinslab;
     letter-spacing: 0.125rem;
     font-size: 3.75rem;
     margin: 1.125rem;
@@ -109,8 +109,9 @@ h1 {
 }
 
 h2 {
-    font-family: josefinslab
-    letter-spacing: 0.125rem
+    font-family: josefinslab;
+    letter-spacing: 0.125rem;
+    font-size: 1.5rem;
 }
 
 h2 + p {}
@@ -150,8 +151,3 @@ nava:active {}
 
 /* Footer Styles */
 footer {}
-
-
-
-
-
