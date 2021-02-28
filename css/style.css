@@ -118,9 +118,13 @@ h2 + p {}
 
 p {
     font-size: 0.75rem;
+    letter-spacing: 0.125rem;
 }
 
-li {}
+li {
+    font-size: 0.75rem;
+    letter-spacing: 0.125rem;
+}
 
 figcaption {}
 
