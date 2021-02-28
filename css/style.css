@@ -137,13 +137,21 @@ figcaption {
 
 /* Link Styling */
 
-a {}
+a {
+    outline: none;
+}
 
-a:link,
-a:visited {}
+a:link, {
+    color: #33658A;
+}
+a:visited {
+   color: #33658A; 
+}
 
 a: focus,
-a:hover {}
+a:hover {
+    text-decoration: none;
+}
 
 /* List Styling */
 
@@ -164,8 +172,3 @@ nava:active {}
 
 /* Footer Styles */
 footer {}
-
-
-
-
-
