@@ -81,13 +81,13 @@ header, footer {
 @font-face {
     
     font-family: 'josefinslab';
-    src: url('ottemanc.github.io/fonts/josefinslab-regular.ttf') format('truetype');
+    src: url('ottemanc.github.io/fonts/josefinslab-regular.ttf') 
     font-weight:normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'montserrat';
-    src: url('ottemanc.github.io/fonts/montserrat-regular.ttf') format('truetype');
+    src: url('ottemanc.github.io/fonts/montserrat-regular.ttf')
     font-weight:normal;
     font-style: normal;
 }
@@ -96,14 +96,18 @@ header, footer {
 
 /* Typography Styles */
 html {
-    font-family: 'montserrat', sans-serif, Arial;
+    font-family: montserrat
 }
 
 h1 {
-    font-family: 'josefinslab', serif;
+    font-family: josefinslab
+    letter-spacing: 0.125rem;
 }
 
-h2 {}
+h2 {
+    font-family: josefinslab
+    letter-spacing: 0.125rem
+}
 
 h2 + p {}
 
@@ -142,3 +146,8 @@ nava:active {}
 
 /* Footer Styles */
 footer {}
+
+
+
+
+
