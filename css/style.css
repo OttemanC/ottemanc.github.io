@@ -173,7 +173,9 @@ ol {
     
 }
 
-.long-list a:hover {}
+.long-list a:hover {
+    text-transform: uppercase;
+}
 /* Navigation Menu */
 nav {}
 
