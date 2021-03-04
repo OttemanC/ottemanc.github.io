@@ -81,13 +81,13 @@ header, footer {
 @font-face {
     
     font-family: josefinslab;
-    src: url(ottemanc.github.io/fonts/josefinslab-regular.ttf) format = ('truetype')
+    src: url(C:\Users\ottem\OneDrive\Documents\3- WINTER 2021 SCHOOL\IT 248\ottemanc.github.io\fonts) format = ('truetype')
     font-weight:normal;
     font-style: normal;
 }
 @font-face {
     font-family: montserrat;
-    src: url(ottemanc.github.io/fonts/montserrat-regular.ttf) format = ('truetype')
+    src: url(C:\Users\ottem\OneDrive\Documents\3- WINTER 2021 SCHOOL\IT 248\ottemanc.github.io\fonts) format = ('truetype')
     font-weight:normal;
     font-style: normal;
 }
