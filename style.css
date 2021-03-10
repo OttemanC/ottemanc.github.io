@@ -48,4 +48,66 @@
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
-
+/* Imported Typfaces */
+@font-face {
+    
+    font-family: josefinslab;
+    src: url(../fonts/josefinslab-regular.ttf);
+    font-weight:normal;
+    font-style: normal;
+}
+@font-face {
+    font-family:montserrat;
+    src: url(../fonts/montserrat-regular.ttf);
+    font-weight:normal;
+    font-style: normal;
+    }
+@font-face {
+    font-family:lato;
+    src: url(../fonts/lato-regular.ttf);
+    font-weight:normal;
+    font-style: normal;
+    }
+@font-face {
+    font-family:opensans;
+    src: url(../fonts/opensans-regular.ttf);
+    font-weight:normal;
+    font-style: normal;
+    }
+@font-face {
+    font-family:roboto;
+    src: url(../fonts/roboto-regular.ttf);
+    font-weight:normal;
+    font-style: normal;
+    }
+@font-face {
+    font-family:rozhaone;
+    src: url(../fonts/rozhaone-regular.ttf);
+    font-weight:normal;
+    font-style: normal;
+    }
+@font-face {
+    font-family:ultra;
+    src: url(../fonts/ultra-regular.ttf);
+    font-weight:normal;
+    font-style: normal;
+    }
+/* Typography Styles */
+html {
+    font-family: "montserrat", sans-serif;
+}
+h1 {
+    font-family: "josefinslab", serif;
+    letter-spacing: 0.125rem;
+    font-size: 3.75rem;
+ }
+h2 {
+    font-family: "josefinslab", serif;
+    letter-spacing: 0.125rem;
+    font-size: 1.5rem;
+}
+h3 {
+    font-family: "josefinslab", serif;
+    letter-spacing: 0.125rem;
+    font-size: 1.5rem;
+ {
