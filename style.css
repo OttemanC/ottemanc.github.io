@@ -114,7 +114,8 @@ h3 {
      
 /* LEVEL 1 HEADING. */
      
-     .highlight {background-color: brown}
+     .highlight {background-color: brown;
+                color: white}
      
 /* General setup */
 
@@ -262,7 +263,7 @@ nav a {
     border-color: #33658A;
 }
 
-nav a: focus;
+nav a: focus,
 nav a: hover {
     color: #FFF;
     background: #33658A;
