@@ -115,7 +115,7 @@ h3 {
 /* LEVEL 1 HEADING. */
      
      .highlight {background-color: brown;
-                color: white}
+                text-emphasis-color: white;}
      
 /* General setup */
 
