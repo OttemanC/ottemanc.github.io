@@ -115,7 +115,9 @@ h3 {
 /* LEVEL 1 HEADING. */
      
      .highlight {background-color: brown;
-                text-emphasis-color: white;}
+                color: white;
+         font-weight: bold;}
+ h1 {transform: rotate(-5deg);}
      
 /* General setup */
 
