@@ -110,12 +110,10 @@ h3 {
     font-family: "josefinslab", serif;
     letter-spacing: 0.125rem;
     font-size: 1.5rem;
- {
+}
      
 /* LEVEL 1 HEADING. */
-     div {
-         transform: rotate(20deg)
-     }
+     
      .highlight {background-color: brown}
      
 /* General setup */
@@ -264,7 +262,7 @@ nav a {
     border-color: #33658A;
 }
 
-nav a: focus,
+nav a: focus;
 nav a: hover {
     color: #FFF;
     background: #33658A;
