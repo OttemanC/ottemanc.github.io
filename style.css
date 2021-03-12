@@ -115,9 +115,15 @@ h1{
     font-family: 'rozhaone';
 }
 h1 > span { 
-    background-color: darkred;
+    background-color: brown;
     font-family: 'ultra';
     color: antiquewhite;
+     padding-bottom: 0.125em;
+     padding-left: 0.125em;
+     padding-right: 0.125em;
+    padding-top: 0.11em;
+    border-radius: 15px 15px 20px;
+    
     
 }
             
