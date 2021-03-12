@@ -219,11 +219,16 @@ figure{ width:100%;
 figcaption{
 }
 
-button{
-    font-family: 'ultra';
-    background-color: royalblue;
-    color: white;
-    font-size: 2rem;
+.button{
+    background-color: navy;
+  color: white;
+  border: 0.22em solid black;
+    padding: 0.22em;
+    border-radius: 0.5em;
+    font-family: "ultra";
+    font-weight: bolder;
+    font-size: x-large;
+
 }
 aside{
     flex: right;
