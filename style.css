@@ -222,4 +222,8 @@ header, footer {
   border: 0.22em solid black;
     padding: 0.22em;
     border-radius: 0.5em;
+    font-family: "ultra";
+    font-weight: bolder;
+    font-size: x-large;
+
 }
