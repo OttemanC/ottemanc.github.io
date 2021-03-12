@@ -6,7 +6,6 @@
 
             - padding (shorthand and/or specific properties like padding-bottom, etc.)
 
-
             - margin, (shorthand and/or specific properties like margin-top, etc.)
 
             - letter-spacing, word-spacing, line-height
@@ -46,184 +45,214 @@
 
         */
 
-/* ------ START WRITING YOUR CODE BELOW ------ */
 
-/* Imported Typfaces */
+/* ------ START WRITING YOUR CODE BELOW ------ */
 @font-face {
-    
-    font-family: josefinslab;
-    src: url(../fonts/josefinslab-regular.ttf);
+    font-family: lato;
+    src: url(../fonts/sans-serif/lato-regular.ttf);
+    font-style:normal;
     font-weight:normal;
-    font-style: normal;
 }
 @font-face {
     font-family:montserrat;
-    src: url(../fonts/montserrat-regular.ttf);
+    src: url(../fonts/sans-serif/montserrat-regular.ttf);
+    font-style:normal;
     font-weight:normal;
-    font-style: normal;
-    }
-@font-face {
-    font-family:lato;
-    src: url(../fonts/lato-regular.ttf);
-    font-weight:normal;
-    font-style: normal;
-    }
+}
 @font-face {
     font-family:opensans;
-    src: url(../fonts/opensans-regular.ttf);
+    src: url(../fonts/sans-serif/opensans-regular.ttf);
+    font-style:normal;
     font-weight:normal;
-    font-style: normal;
-    }
+}
+
 @font-face {
     font-family:roboto;
-    src: url(../fonts/roboto-regular.ttf);
+    src: url(../fonts/sans-serif/roboto-regular.ttf);
+    font-style:normal;
     font-weight:normal;
-    font-style: normal;
-    }
+}
+@font-face {
+    font-family:josefinslab;
+    src: url(../fonts/serif/josefinslab-regular.ttf);
+    font-style:normal;
+    font-weight:normal;
+}
+@font-face {
+    font-family:robotoslab;
+    src: url(../fonts/serif/robotoslab-regular.ttf);
+    font-style:normal;
+    font-weight:normal;
+}
+
 @font-face {
     font-family:rozhaone;
-    src: url(../fonts/rozhaone-regular.ttf);
+    src: url(../fonts/serif/rozhaone-regular.ttf);
+    font-style:normal;
     font-weight:normal;
-    font-style: normal;
-    }
+}
 @font-face {
     font-family:ultra;
-    src: url(../fonts/ultra-regular.ttf);
+    src: url(../fonts/serif/ultra-regular.ttf);
+    font-style:normal;
     font-weight:normal;
-    font-style: normal;
-    }
-/* Typography Styles */
-html {
-    font-family: "montserrat", sans-serif;
-}
-h1 {
-    font-family: "josefinslab", serif;
-    letter-spacing: 0.125rem;
-    font-size: 3.75rem;
- }
-h2 {
-    font-family: "josefinslab", serif;
-    letter-spacing: 0.125rem;
-    font-size: 1.5rem;
-}
-h3 {
-    font-family: "josefinslab", serif;
-    letter-spacing: 0.125rem;
-    font-size: 1.5rem;
-}
-     
-/* LEVEL 1 HEADING. */
-     
-     .highlight {background-color: brown;
-                color: white;
-                font-weight: bold;
-                padding-bottom: 0.125em;
-                padding-left: 0.125em;
-                padding-right: 0.125em;
-                padding-top: 0.11em;
-                border-radius: 15px 15px 20px;}
-        
- h1 {transform: rotate(-5deg);
-    text-align: center;}
-     
-/* General setup */
-
-* {
-    box-sizing: border-box;
 }
 
+*
 html {
+    font-family: 'josefinslab-regular;
     font-size:16px;
 }
 
-body {
-    margin: 1.5rem auto;
-    width:90%;
-    min-width:56.25rem;
+h1{
+    letter-spacing: .125rem;
+    font-size: 3.75rem;
+    margin: 1.125rem;
+    text-align: center;
+    transform: rotate(-5deg);
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    font-family: 'rozhaone';
+}
+h1 > span { 
+    background-color: darkred;
+    font-family: 'ultra';
+    color: antiquewhite;
+    
+}
+            
+nav{
+    float: left;
+    text-align: left;
+    border-top: .125rem solid #33658A;
+    border-bottom: .125rem solid #33658A;
+    border-bottom-width: thin;
+    border-top-width: thin;
+    width: 100%;
+    font-family: 'lato';
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    font-size: 1.5rem;
+    word-spacing: 4rem;
+    padding-left: 4rem;
+    
+}
+nav a{
+    text-decoration: none;
+}
+         
+main{
 }
 
-/* Layout */
+h2{
+    font-size: 2rem;
+    margin-top: 5rem;
+    font-family: "opensans";
+}
 
-main {
-    overflow:auto;
-    min-width:45rem;
+main-section{
+    float: right;
+    width: 100%;
+    margin: 1rem;
+    max-width: 60%;
+}
+article{
+    float: left;
+    width: 70%;
+}
+.article-image{
+    
     
 }
 
-section {
-    float: left;
-    min-width: 22.5rem;
-    width:50%;
+img{
 }
 
-figure {
-    width:60%;
-    margin:0 10% 0 0;
-    float:left;
+p{
 }
 
-figure img {
-    width:100%;
-    max-width:25rem;
+h3{
 }
 
-figcaption {
-    margin:.375rem 0;
+time{
+    font-style: italic;
 }
 
-.long-list {
-    margin-top:0;
+.subsection{
+    bottom: 3rem;
+    display: inline-block; 
 }
 
-nav {
-    float: left;
-    width:11.25rem;
+.subsection > img { 
+    max-width: 20%;
+    
 }
-
-footer {
-    clear: both;
-    margin-top:1.5rem;
-}
-
-section, aside, nav, footer {
-  padding: .5rem;
-}
-
-/* header and footer */
-
-header, footer {
- 
-  border-bottom: .125rem solid #afbac1;
-  border-width: medium;
-}
-
-.subsection{display: inline-block;}
 .row{
-    display: flex;
-    max-width: 80%;}
-
+    display:flex;
+    max-width: 80%;   
+}
 .column{
-    flex: 26.66%;
-    float: left;
-    padding: 2px;}
-
-.main-section{
-    width: 100%;
+    flex:30%;
+    float:left;
+    padding: .125rem;
+    
 }
 
 .column1{
     float: left;
-    width: 70%;
+    width: 100%;
 }
 
-.button{
-    background-color: navy;
-  color: white;
-  border: 0.22em solid black;
-    padding: 0.22em;
-    border-radius: 0.5em;
-    font-family: "ultra";
-    font-weight: bolder;
-    font-size: x-large;
-
+.column2{ 
+    float:left;
+    width: 30%;
 }
+figure{ width:100%;
+    float:left;
+}
+
+.subsection> figure{ 
+    width: 20%;
+    display: inline-block;
+}
+
+figcaption{
+}
+
+button{
+    font-family: 'ultra';
+    background-color: royalblue;
+    color: white;
+    font-size: 2rem;
+}
+aside{
+    flex: right;
+    float: right;
+    width: 30%;
+    padding-bottom: 2rem;
+}
+aside img{ 
+    width: 75%;
+}
+
+.expand{
+    text-decoration: none; 
+}
+
+.copy{
+    text-align: left;
+}
+footer>p{
+    clear: both;
+    margin-top: 1.5rem;
+    bottom: 0;  
+    text-align: right;
+    color: black;
+    }
+footer a{
+    text-decoration: none;
+    color: black;
+   
+}
+          
+            
