@@ -120,8 +120,11 @@ h3 {
                 padding-bottom: 0.125em;
                 padding-left: 0.125em;
                 padding-right: 0.125em;
-                padding-top: 0.125em;}
- h1 {transform: rotate(-5deg);}
+                padding-top: 0.11em;
+                border-radius: 15px 15px 20px;}
+        
+ h1 {transform: rotate(-5deg);
+    text-align: center;}
      
 /* General setup */
 
@@ -189,8 +192,9 @@ section, aside, nav, footer {
 /* header and footer */
 
 header, footer {
-  border-top: .125rem solid #33658A;
-  border-bottom: .125rem solid #33658A;
+ 
+  border-bottom: .125rem solid #afbac1;
+  border-width: medium;
 }
 
 .subsection{display: inline-block;}
@@ -211,10 +215,5 @@ header, footer {
     float: left;
     width: 70%;
 }
-
-.column2{
-    float: right;
-    width: 30%;}
-
 
   
