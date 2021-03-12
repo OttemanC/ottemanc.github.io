@@ -116,7 +116,11 @@ h3 {
      
      .highlight {background-color: brown;
                 color: white;
-         font-weight: bold;}
+                font-weight: bold;
+                padding-bottom: 0.125em;
+                padding-left: 0.125em;
+                padding-right: 0.125em;
+                padding-top: 0.125em;}
  h1 {transform: rotate(-5deg);}
      
 /* General setup */
@@ -187,97 +191,30 @@ section, aside, nav, footer {
 header, footer {
   border-top: .125rem solid #33658A;
   border-bottom: .125rem solid #33658A;
-    
-p {
-    font-size: 0.75rem;
-    letter-spacing: 0.125rem;
-    word-spacing: 0.125rem;
 }
 
-li {
-    font-size: 0.75rem;
-    letter-spacing: 0.125rem;
-    word-spacing: 0.125rem;
-}
+.subsection{display: inline-block;}
+.row{
+    display: flex;
+    max-width: 80%;}
 
-figcaption {
-    font-size: 0.75rem;
-    margin-bottom: 2rem;
-}
+.column{
+    flex: 26.66%;
+    float: left;
+    padding: 2px;}
 
-/* Link Styling */
-
-a {
-    outline: none;
-}
-
-a:link, {
-    color: #33658A;
-}
-a:visited {
-   color: #33658A; 
-}
-
-a: focus,
-a:hover {
-    text-decoration: none;
-}
-
-/* List Styling */
-
-ul{
-   margin-bottom: 1rem;
-    margin-top: 1rem;
-    margin-left: 0rem;
-    margin-right: 0rem;
-    list-style-type: square;
-    
-}
-
-ol {
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-    margin-left: 0rem;
-    margin-right: 0rem;
-    list-style-type: lower-latin;
-    
-}
-
-.long-list a:hover {
-    text-transform: uppercase;
-}
-/* Navigation Menu */
-nav {
-    padding-left: 0rem;
-    margin-top: 0.25rem;
-}
-
-nav a {
-    text-decoration: none;
-    display: inline-block;
+.main-section{
     width: 100%;
-    line-height: 3;
-    text-align: center;
-    font-size: 1.125rem;
-    margin-bottom: 1.5rem;
-    border-style: solid;
-    border-width: 0.0625rem;
-    border-color: #33658A;
 }
 
-nav a: focus,
-nav a: hover {
-    color: #FFF;
-    background: #33658A;
+.column1{
+    float: left;
+    width: 70%;
 }
 
-nava:active {
-    color: #FFF;
-     background: #000;
-}
+.column2{
+    float: right;
+    width: 30%;}
 
-/* Footer Styles */
-footer {
-    text-align: center;
-}
+
   
